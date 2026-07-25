@@ -193,3 +193,38 @@ Else
     Display "No Diet Available"
 STOP
 ```
+# Marcus Loyal to Caesar - Pseudocode
+
+```text
+START
+
+Store the facts:
+    Marcus is a man
+    Marcus is a Roman
+    Caesar is a ruler
+    Marcus is loyal to Caesar
+
+Create rule:
+    Every man is a person
+
+Create rule:
+    A person can try to assassinate a ruler
+    only if the person is NOT loyal to the ruler
+
+Accept a query
+
+IF the query is
+    "Is Marcus loyal to Caesar?"
+THEN
+    Search the knowledge base
+    Display TRUE
+
+ELSE IF the query is
+    "Did Marcus try to assassinate Caesar?"
+THEN
+    Check if Marcus is not loyal
+    Since Marcus is loyal
+    Display FALSE
+
+STOP
+```
