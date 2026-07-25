@@ -65,3 +65,131 @@ GBFS(Graph, Start, Goal)
 
 5. End
 ```
+# Pseudocodes - Artificial Intelligence and Expert Systems (Prolog)
+
+## 1. Sum of Integers from 1 to n
+
+```text
+START
+Input N
+If N = 1
+    Return 1
+Else
+    Sum = N + Sum(N-1)
+Display Sum
+STOP
+```
+
+---
+
+## 2. Name and DOB Database
+
+```text
+START
+Store Name and Date of Birth
+Accept Name as input
+Search the database
+If record exists
+    Display Date of Birth
+Else
+    Display "Record Not Found"
+STOP
+```
+
+---
+
+## 3. Student–Teacher–Subject Database
+
+```text
+START
+Store student details
+Store teacher details
+Store subject codes
+Associate teachers with subjects
+Associate students with subjects
+Accept user query
+Display matching information
+STOP
+```
+
+---
+
+## 4. Planets Database
+
+```text
+START
+Store planet names
+Accept planet name
+Search database
+If planet exists
+    Display "Planet Found"
+Else
+    Display "Planet Not Found"
+STOP
+```
+
+---
+
+## 5. Towers of Hanoi
+
+```text
+START
+Input number of disks N
+If N = 1
+    Move disk from Source to Destination
+Else
+    Move N-1 disks from Source to Auxiliary
+    Move largest disk from Source to Destination
+    Move N-1 disks from Auxiliary to Destination
+STOP
+```
+
+---
+
+## 6. Bird Can Fly or Not
+
+```text
+START
+Store birds that can fly
+Store birds that cannot fly
+Accept bird name
+Check database
+If bird can fly
+    Display "Can Fly"
+Else
+    Display "Cannot Fly"
+STOP
+```
+
+---
+
+## 7. Family Tree
+
+```text
+START
+Store male members
+Store female members
+Store parent-child relationships
+Create rules for father, mother,
+brother, sister, grandfather,
+and grandmother
+Accept relationship query
+Display relationship
+STOP
+```
+
+---
+
+## 8. Dieting Expert System
+
+```text
+START
+Store diseases and diet plans
+Accept disease name
+Search knowledge base
+If disease found
+    Display recommended diet
+Else
+    Display "No Diet Available"
+STOP
+```
