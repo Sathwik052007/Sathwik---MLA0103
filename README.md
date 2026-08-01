@@ -228,3 +228,129 @@ THEN
 
 STOP
 ```
+# Pseudocodes - Artificial Intelligence and Expert Systems (Prolog)
+
+---
+
+## 9. Monkey Banana Problem
+
+```text
+START
+Initialize monkey position
+Initialize box position
+Initialize banana position
+
+Move monkey to the box
+Push the box below the banana
+Climb onto the box
+Pick up the banana
+
+Display "Banana Obtained"
+STOP
+```
+
+---
+
+## 10. Fruit and Color using Backtracking
+
+```text
+START
+Store fruits and their colors
+Accept fruit name or color
+Search the knowledge base
+
+If matching record found
+    Display the fruit or color
+Else
+    Display "No Match Found"
+
+STOP
+```
+
+---
+
+## 11. Best First Search Algorithm
+
+```text
+START
+Create graph nodes
+Create edges between nodes
+Select the starting node
+Select the goal node
+
+Choose the best adjacent node
+Move to the selected node
+Repeat until goal is reached
+
+Display the path
+STOP
+```
+
+---
+
+## 12. Medical Diagnosis
+
+```text
+START
+Store symptoms and corresponding diseases
+Accept symptom as input
+Search the knowledge base
+
+If disease is found
+    Display disease name
+Else
+    Display "Disease Not Found"
+
+STOP
+```
+
+---
+
+## 13. Forward Chaining
+
+```text
+START
+Store initial facts
+Store inference rules
+
+Apply rules to known facts
+Generate new facts
+Repeat until no new facts are produced
+
+Display final conclusion
+STOP
+```
+
+---
+
+## 14. Backward Chaining
+
+```text
+START
+Set the goal
+Check whether the goal is already a fact
+
+If not
+    Search for a rule that can prove the goal
+    Verify each condition of the rule
+    Repeat until all conditions are satisfied
+
+If goal is proved
+    Display "Goal Achieved"
+Else
+    Display "Goal Cannot Be Proved"
+
+STOP
+```
+
+---
+
+## AI Concepts Covered
+
+- Planning (Monkey Banana Problem)
+- Backtracking
+- Heuristic Search
+- Knowledge Representation
+- Expert Systems
+- Forward Reasoning
+- Backward Reasoning
